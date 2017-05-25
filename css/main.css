@@ -24,7 +24,7 @@
 .derecho{
 	width: 150px;
 	height: 250px;
-	top: 70px;
+	bottom: 150px;
 	right: 5px;
 	border: 5px solid white;
 	position: relative;
@@ -32,15 +32,24 @@
 	display: inline-block;
 }
 
+.A{
+	margin-left: 150px;	
+}
+
 .izquierdo{
 	width: 150px;
 	height: 250px;
-	top: 70px;
+	top: 90px;
 	left: 630px;
 	border: 5px solid white;
 	position: relative;
 	background-color: #30A42B;
 	display: inline-block;
+}
+
+.B img{
+	margin-top: 240px;
+
 }
 
 .centro{
@@ -53,5 +62,11 @@
 	border: 5px solid white;
 	display: inline-block;
 	margin-left: 50px;
-	margin-top: 100px;
+	bottom: 80px;
+	position: relative;
+}
+
+.C img{
+	margin-top: 20px;
+	
 }

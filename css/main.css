@@ -1,1 +1,21 @@
 /* Inserta tu CSS aqui */
+/*cancha*/
+
+#cancha{
+	background-color: #30A42B;
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+
+.borde-cancha{
+	width: 950px;
+	height: 450px;
+	top: 20px;
+	left: 20px;
+	border: 5px solid white;
+	position: absolute;
+	background-color: #30A42B;
+}

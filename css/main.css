@@ -18,4 +18,40 @@
 	border: 5px solid white;
 	position: absolute;
 	background-color: #30A42B;
+	display: inline-block;
+}
+
+.derecho{
+	width: 150px;
+	height: 250px;
+	top: 70px;
+	right: 5px;
+	border: 5px solid white;
+	position: relative;
+	background-color: #30A42B;
+	display: inline-block;
+}
+
+.izquierdo{
+	width: 150px;
+	height: 250px;
+	top: 70px;
+	left: 630px;
+	border: 5px solid white;
+	position: relative;
+	background-color: #30A42B;
+	display: inline-block;
+}
+
+.centro{
+	width: 150px;
+	height: 150px;
+	background: #30A42B;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border-radius: 90px;
+	border: 5px solid white;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 100px;
 }
